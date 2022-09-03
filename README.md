@@ -1,4 +1,4 @@
-# rockcoast
+# Rock Coast
 Website for Aston Tech
 
 by Jack Haben
