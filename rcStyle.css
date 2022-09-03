@@ -10,11 +10,9 @@ body {
     justify-content: left;
 
 }
-
 .spacer {
     width: 2em;
 }
-
 menu {
     list-style-type: none;
     padding: 0;
@@ -22,11 +20,9 @@ menu {
     background-color: white;
     border-radius: 5px;
 }
-
 menu li {
     float: left;
 }
-
 a {
     display: block;
     color: black;
@@ -49,24 +45,71 @@ button {
     border-radius: 3px;
     background-color: white;
 }
-.title {
+
+.mainTitle,
+.subTitle {
     color: #ff8d40;
     letter-spacing: .25em;
 }
 
-.main {
+.subSection {
     background-color: white;
     border-radius: 16px;
     margin: 1em .25em;
-}
-
-.innerMain {
     padding: .05em 1em;
     font-family: Verdana, sans-serif;
-
-
 }
 
 .open {
     letter-spacing: .15em;
+}
+
+.products {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+
+}
+
+.box {
+    width: 250px;
+}
+
+.details {
+    background-color: #ff8d40;
+    border-radius: 16px;
+    padding: 1em;
+    margin: 1em;
+    font-weight: initial;
+    color: white;
+    text-align: initial;
+}
+
+.specifications {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column
+}
+
+
+/* Solid border */
+hr.solid {
+    border: 1px solid #c65e17;
+    background-color: #c65e17;
+}
+
+.center {
+    text-align: center;
 }
