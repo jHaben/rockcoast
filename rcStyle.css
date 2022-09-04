@@ -10,19 +10,26 @@ body {
     justify-content: left;
 
 }
+
 .spacer {
     width: 2em;
 }
+
 menu {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
     background-color: white;
     border-radius: 5px;
+
+
 }
+
 menu li {
     float: left;
+
 }
+
 a {
     display: block;
     color: black;
