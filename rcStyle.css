@@ -28,6 +28,7 @@ menu {
 
 menu li {
     float: left;
+    flex: 1 0 auto;
 
 }
 
@@ -83,6 +84,7 @@ main {
 
 .box {
     width: 250px;
+    
 }
 
 .details {
